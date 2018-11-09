@@ -16,6 +16,9 @@ public class Alien_beam extends Alien{
         g.fillRect((int) this.x, (int) this.y,1, 4 );
 
     }
+    public void update(int pic_width, int pic_height, int frame) {
+        this.y += speed_y;
+    }
         // if the y coordinate and the x coordinate match up with that of the alien, then it disappears??????????????
 
 

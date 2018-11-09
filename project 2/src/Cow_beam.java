@@ -13,11 +13,9 @@ public class Cow_beam extends Cow{
     @Override
     public void draw(Graphics g) {
         g.fillOval((int)this.x, (int)this.y, 5, 5);
-    }
-
-    @Override
-    public void update(int pic_width, int pic_height, int frame) {
-
+        g.fillOval((int)this.x + 2, (int) this.y + 2, 5, 5);
+        g.fillOval((int)this.x + 4, (int) this.y + 4, 5, 5);
 
     }
+    
 }
